@@ -1,0 +1,47 @@
+~ start
+
+if global.target == 1
+	Green Mask: [[Hello | Good Evening| Howdy]]... How are you?
+	- I am well, Do you know anything about other people here?
+		Green Mask: I heard the red masked man once met Gordon Ramsey...
+	- I am good, tell me about yourself.
+		Green Mask: I am a Veteran from the US Navy. Recently I have taken up an intrest in the fine arts...
+		=> END
+	- Goodbye. => END
+if global.target == 3
+	Green Mask: [[Hello | Good Evening| Howdy]]... How are you?
+	- I am well, Do you know anything about other people here?
+		Green Mask: I heard the yellow masked woman was a good cook. Aparently she is good at making ramen. I've never tried it.
+	- I am good, tell me about yourself.
+		Green Mask: I am a Veteran from the US Navy. Recently I have taken up an intrest in the fine arts...
+		Oh good to know thank you.
+		=> END
+	- Goodbye. => END
+if global.target == 0
+	Green Mask: [[Hello | Good Evening| Howdy]]... How are you?
+	- I am well, Do you know anything about other people here?
+		Green Mask: I heard the black masked man once wrestled a bear in russian wilderness...
+	- I am good, tell me about yourself.
+		Green Mask: I am a Veteran from the US Navy. Recently I have taken up an intrest in the fine arts...
+		Oh good to know thank you.
+		=> END
+	- Goodbye. => END
+if global.target == 2
+	Green Mask: [[Hello | Good Evening| Howdy]]... How are you?
+	- I am well, Do you know anything about other people here?
+		Green Mask: I heard the blue masked woman made a very fragrant perfume. I for one didn't like it.
+	- I am good, tell me about yourself.
+		Green Mask: I am a Veteran from the US Navy. Recently I have taken up an intrest in the fine arts...
+		Oh good to know thank you.
+		=> END
+	- Goodbye. => END
+if global.target == 4
+	Green Mask: [[Hello | Good Evening| Howdy]]... How are you?
+	- I am well, Do you know anything about other people here?
+		Green Mask: I heard the black masked man was quite the soldier. I could have used him back in nam.
+	- I am good, tell me about yourself.
+		Green Mask: I am a Veteran from the US Navy. Recently I have taken up an intrest in the fine arts...
+		Oh good to know thank you.
+		=> END
+	- Goodbye. => END
+=> END

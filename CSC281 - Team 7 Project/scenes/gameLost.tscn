@@ -1,0 +1,51 @@
+[gd_scene load_steps=2 format=3 uid="uid://xrjtqcc73uw4"]
+
+[ext_resource type="Script" path="res://scripts/gameover.gd" id="1_gtcsq"]
+
+[node name="gameWin" type="CanvasLayer"]
+script = ExtResource("1_gtcsq")
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 861.0
+offset_top = 408.0
+offset_right = -835.0
+offset_bottom = -602.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.960784, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 51
+text = "You Lost."
+
+[node name="retry" type="Button" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 940.0
+offset_top = 480.0
+offset_right = -928.0
+offset_bottom = -569.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Retry"
+
+[node name="quit" type="Button" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 946.0
+offset_top = 520.0
+offset_right = -932.0
+offset_bottom = -529.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Quit"
+
+[connection signal="draw" from="Label" to="." method="_on_label_draw"]
+[connection signal="hidden" from="Label" to="." method="_on_label_hidden"]
+[connection signal="pressed" from="retry" to="." method="_on_retry_pressed"]
+[connection signal="pressed" from="quit" to="." method="_on_quit_pressed"]

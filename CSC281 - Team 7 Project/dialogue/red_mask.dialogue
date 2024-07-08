@@ -1,0 +1,52 @@
+~ start
+
+if global.target == 1
+	Red Mask: [[Ciao | Buonasera]]... How are you?
+	- I am well, Do you know anything about other people here?
+		Red Mask: I heard that the blue masked woman owns a Farrari. She definitly has good taste...
+		Oh good to know thanks.
+	- I am good, tell me about yourself.
+		Red Mask: I am quite the expert on wine. My parents owned a vineyard.
+		Oh good to know thank you.
+		=> END
+	- Goodbye. => END
+if global.target == 3
+	Red Mask: [[Ciao | Buonasera]]... How are you?
+	- I am well, Do you know anything about other people here?
+		Red Mask: I heard that the black masked man got into a plane crash and narrowly escaped with his life.
+		Oh good to know thanks.
+	- I am good, tell me about yourself.
+		Red Mask: I am quite the expert on wine. My parents owned a vineyard.
+		Oh good to know thank you.
+		=> END
+	- Goodbye. => END
+if global.target == 0
+	Red Mask: [[Ciao | Buonasera]]... How are you?
+	- I am well, Do you know anything about other people here?
+		Red Mask: I heard green masked man was a general back in Vietnam. Heard he fought off a whole battalion with his bear hands.
+		Oh good to know thanks.
+	- I am good, tell me about yourself.
+		Red Mask: I am quite the expert on wine. My parents owned a vineyard.
+		Oh good to know thank you.
+		=> END
+	- Goodbye. => END
+if global.target == 2
+	Red Mask: [[Ciao | Buonasera]]... How are you?
+	- I am well, Do you know anything about other people here?
+		Red Mask: I that the yellow masked woman was a black belt in some sort of martial art. Karate maybe.
+	- I am good, tell me about yourself.
+		Red Mask: I am quite the expert on wine. My parents owned a vineyard.
+		Oh good to know thank you.
+		=> END
+	- Goodbye. => END
+if global.target == 4
+	Red Mask: [[Ciao | Buonasera]]... How are you?
+	- I am well, Do you know anything about other people here?
+		Red Mask: I heard the blue masked woman was from the either France or Spain. You might want to check her accent.
+		Oh good to know thanks.
+	- I am good, tell me about yourself.
+		Red Mask: I am quite the expert on wine. My parents owned a vineyard.
+		Oh good to know thank you.
+		=> END
+	- Goodbye. => END
+=> END

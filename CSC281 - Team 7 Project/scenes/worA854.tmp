@@ -1,0 +1,34 @@
+[gd_scene load_steps=7 format=3 uid="uid://d6m8phtvvl4y"]
+
+[ext_resource type="PackedScene" uid="uid://bcebqfsgqi0h4" path="res://scenes/player.tscn" id="1_0sar2"]
+[ext_resource type="PackedScene" uid="uid://dskktkhukgx31" path="res://scenes/npc.tscn" id="2_rkhrn"]
+[ext_resource type="Script" path="res://scripts/blue_mask.gd" id="3_87pyr"]
+[ext_resource type="Script" path="res://scripts/yellow_mask.gd" id="4_ci4nr"]
+[ext_resource type="Script" path="res://scripts/green_mask.gd" id="5_vaixg"]
+[ext_resource type="Script" path="res://scripts/black_mask.gd" id="6_o7jrv"]
+
+[node name="world" type="Node2D"]
+
+[node name="player" parent="." instance=ExtResource("1_0sar2")]
+position = Vector2(154, 46)
+
+[node name="red_mask" parent="." instance=ExtResource("2_rkhrn")]
+position = Vector2(106, 93)
+
+[node name="blue_mask" parent="." instance=ExtResource("2_rkhrn")]
+position = Vector2(153, 134)
+script = ExtResource("3_87pyr")
+
+[node name="yellow_mask" parent="." instance=ExtResource("2_rkhrn")]
+position = Vector2(82, 26)
+script = ExtResource("4_ci4nr")
+
+[node name="green_mask" parent="." instance=ExtResource("2_rkhrn")]
+position = Vector2(223, 28)
+script = ExtResource("5_vaixg")
+
+[node name="black_mask" parent="." instance=ExtResource("2_rkhrn")]
+position = Vector2(205, 86)
+script = ExtResource("6_o7jrv")
+
+[connection signal="input_event" from="blue_mask" to="player" method="_on_blue_mask_input_event"]

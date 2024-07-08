@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://b6d5iadqdpvaa"
+path="res://.godot/imported/black_mask.dialogue-4ccbb0a2d4bbb77c33a7d7676bad7a5a.tres"
+
+[deps]
+
+source_file="res://dialogue/black_mask.dialogue"
+dest_files=["res://.godot/imported/black_mask.dialogue-4ccbb0a2d4bbb77c33a7d7676bad7a5a.tres"]
+
+[params]
+
+defaults=true

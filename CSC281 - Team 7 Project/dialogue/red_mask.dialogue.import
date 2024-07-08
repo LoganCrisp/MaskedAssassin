@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://n3a4aavfi5yf"
+path="res://.godot/imported/red_mask.dialogue-d56c7741e707cc020065a64f4eaaa3bd.tres"
+
+[deps]
+
+source_file="res://dialogue/red_mask.dialogue"
+dest_files=["res://.godot/imported/red_mask.dialogue-d56c7741e707cc020065a64f4eaaa3bd.tres"]
+
+[params]
+
+defaults=true

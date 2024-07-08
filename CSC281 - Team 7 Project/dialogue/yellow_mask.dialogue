@@ -1,0 +1,50 @@
+~ start
+
+if global.target == 1
+	Yellow Mask: Nǐ hǎo... How are you?
+	- I am well, Do you know anything about other people here?
+		Yellow Mask: I heard the green masked man was also a trained fighter. I wonder which of us would win in the ring?
+	- I am good, tell me about yourself.
+		Yellow Mask: I am a Sensei in Taekwondo in Japan. I got my black belt last year.
+		Oh good to know thank you.
+		=> END
+	- Goodbye. => END
+if global.target == 3
+	Yellow Mask: Nǐ hǎo... How are you?
+	- I am well, Do you know anything about other people here?
+		Yellow Mask: I heard the blue masked woman liked to drag race. That seems rather dangerous.
+		Oh good to know thanks.
+	- I am good, tell me about yourself.
+		Yellow Mask: I am a Sensei in Taekwondo in Japan. I got my black belt last year.
+		Oh good to know thank you.
+		=> END
+	- Goodbye. => END
+if global.target == 0
+	Yellow Mask: Nǐ hǎo... How are you?
+	- I am well, Do you know anything about other people here?
+		Yellow Mask: I heard the red masked man was quite the drinker. Apparently he drank two whole bottles of wine tonight.
+	- I am good, tell me about yourself.
+		Yellow Mask: I am a Sensei in Taekwondo in Japan. I got my black belt last year.
+		Oh good to know thank you.
+		=> END
+	- Goodbye. => END
+if global.target == 2
+	Yellow Mask: Nǐ hǎo... How are you?
+	- I am well, Do you know anything about other people here?
+		Yellow Mask: I heard the black masked man was an ex-spetsnaz soldier before his accident.
+		Oh good to know thanks.
+	- I am good, tell me about yourself.
+		Yellow Mask: I am a Sensei in Taekwondo in Japan. I got my black belt last year.
+		Oh good to know thank you.
+		=> END
+	- Goodbye. => END
+if global.target == 4
+	Yellow Mask: Nǐ hǎo... How are you?
+	- I am well, Do you know anything about other people here?
+		Yellow Mask: I heard that the red masked man can cook a mean bowl of pasta. I perfer ramen...
+	- I am good, tell me about yourself.
+		Yellow Mask: I am a Sensei in Taekwondo in Japan. I got my black belt last year.
+		Oh good to know thank you.
+		=> END
+	- Goodbye. => END
+=> END

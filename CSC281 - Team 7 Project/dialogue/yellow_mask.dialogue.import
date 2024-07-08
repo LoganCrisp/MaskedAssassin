@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://cd5re3f8ubjjk"
+path="res://.godot/imported/yellow_mask.dialogue-3d40dadaf4e809da25824f425bb6ca3d.tres"
+
+[deps]
+
+source_file="res://dialogue/yellow_mask.dialogue"
+dest_files=["res://.godot/imported/yellow_mask.dialogue-3d40dadaf4e809da25824f425bb6ca3d.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,53 @@
+~ start
+
+if global.target == 1
+	Blue Mask: [[Buenos Noches | Hola| Mucho gusto]]... How are you?
+	- I am well, Do you know anything about other people here?
+		Blue Mask: I heard the black masked man likes classical music. Or maybe it was the green masked man. Who knows...
+		Oh good to know thanks.
+	- I am good, tell me about yourself.
+		Blue Mask: I am a wealthy buissiness woman from Spain. You may have smelled my products before...
+		Oh good to know thank you.
+		=> END
+	- Goodbye. => END
+if global.target == 3
+	Blue Mask: [[Buenos Noches | Hola| Mucho gusto]]... How are you?
+	- I am well, Do you know anything about other people here?
+		Blue Mask: I heard the green masked man was once a sailor. I've heard he traveled the world.
+		Oh good to know thanks.
+	- I am good, tell me about yourself.
+		Blue Mask: I am a wealthy buissiness woman from Spain. You may have smelled my products before...
+		Oh good to know thank you.
+		=> END
+	- Goodbye. => END
+if global.target == 0
+	Blue Mask: [[Buenos Noches | Hola| Mucho gusto]]... How are you?
+	- I am well, Do you know anything about other people here?
+		Blue Mask: I heard the yellow masked woman was an orphan. Could you imagine...
+		Oh good to know thanks.
+	- I am good, tell me about yourself.
+		Blue Mask: I am a wealthy buissiness woman from Spain. You may have smelled my products before...
+		Oh good to know thank you.
+		=> END
+	- Goodbye. => END
+if global.target == 2
+	Blue Mask: [[Buenos Noches | Hola| Mucho gusto]]... How are you?
+	- I am well, Do you know anything about other people here?
+		Blue Mask: I heard the red masked man owned a resturant. I think it was italian or maybe it was Greek. Who knows...
+		Oh good to know thanks.
+	- I am good, tell me about yourself.
+		Blue Mask: I am a wealthy buissiness woman from Spain. You may have smelled my products before...
+		Oh good to know thank you.
+		=> END
+	- Goodbye. => END
+if global.target == 4
+	Blue Mask: [[Buenos Noches | Hola| Mucho gusto]]... How are you?
+	- I am well, Do you know anything about other people here?
+		Blue Mask: I heard the yellow masked woman was from Asia. I've always wanted to travel there.
+		Oh good to know thanks.
+	- I am good, tell me about yourself.
+		Blue Mask: I am a wealthy buissiness woman from Spain. You may have smelled my products before...
+		Oh good to know thank you.
+		=> END
+	- Goodbye. => END
+=> END

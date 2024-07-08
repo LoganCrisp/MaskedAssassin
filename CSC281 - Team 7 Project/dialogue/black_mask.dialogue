@@ -1,0 +1,43 @@
+~ start
+
+if global.target == 1
+	Black Mask: Privet... How are you?
+	- I am well, Do you know anything about other people here?
+		Black Mask: I heard the yellow masked woman had her own dojo. Quite impressive...
+	- I am good, tell me about yourself.
+		Black Mask: I used to work for the Russian Government before my accident. I can't disclose what I was doing as it is top secret.
+		=> END
+	- Goodbye. => END
+if global.target == 3
+	Black Mask: Privet... How are you?
+	- I am well, Do you know anything about other people here?
+		Black Mask: I heard the red masked man was raised in the foothills of Italy. Beautiful contry...
+	- I am good, tell me about yourself.
+		Black Mask: I used to work for the Russian Government before my accident. I can't disclose what I was doing as it is top secret.
+		=> END
+	- Goodbye. => END
+if global.target == 0
+	Black Mask: Privet... How are you?
+	- I am well, Do you know anything about other people here?
+		Black Mask: I heard the blue masked woman was a multimillionare. I sure could have used that money when I got in my accident.
+	- I am good, tell me about yourself.
+		Black Mask: I used to work for the Russian Government before my accident. I can't disclose what I was doing as it is top secret.
+		=> END
+	- Goodbye. => END
+if global.target == 2
+	Black Mask: Privet... How are you?
+	- I am well, Do you know anything about other people here?
+		Black Mask: I heard the green masked man is quite a strong man. I heard he can bench 405 and can squat over 500 pounds...
+	- I am good, tell me about yourself.
+		Black Mask: I used to work for the Russian Government before my accident. I can't disclose what I was doing as it is top secret.
+		=> END
+	- Goodbye. => END
+if global.target == 4
+	Black Mask: Privet... How are you?
+	- I am well, Do you know anything about other people here?
+		Black Mask: I heard the green masked man had over 100 confirmed kills. Almost as impressive as mine...
+	- I am good, tell me about yourself.
+		Black Mask: I used to work for the Russian Government before my accident. I can't disclose what I was doing as it is top secret.
+		=> END
+	- Goodbye. => END
+=> END

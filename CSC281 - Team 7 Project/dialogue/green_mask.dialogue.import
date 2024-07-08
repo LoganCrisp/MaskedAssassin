@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://ldravrekgqnd"
+path="res://.godot/imported/green_mask.dialogue-72a08295539b39ccaa6a30e007254409.tres"
+
+[deps]
+
+source_file="res://dialogue/green_mask.dialogue"
+dest_files=["res://.godot/imported/green_mask.dialogue-72a08295539b39ccaa6a30e007254409.tres"]
+
+[params]
+
+defaults=true

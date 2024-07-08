@@ -1,0 +1,51 @@
+[gd_scene load_steps=3 format=3 uid="uid://s6pk2axeif1p"]
+
+[ext_resource type="Script" path="res://scripts/keybind_ui.gd" id="1_iu48q"]
+[ext_resource type="Texture2D" uid="uid://dlcuvgmjp2pwj" path="res://art/Keybinds for game.png" id="2_oj845"]
+
+[node name="KeybindUi" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_iu48q")
+
+[node name="back" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_left = 381.0
+offset_top = 583.0
+offset_right = 578.0
+offset_bottom = -420.0
+grow_vertical = 2
+theme_override_font_sizes/font_size = 50
+text = "BACK"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_oj845")
+stretch_mode = 3
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 149.0
+offset_right = 1094.0
+offset_bottom = 354.0
+theme_override_font_sizes/font_size = 35
+text = "W → Move Up                              C → Talk to NPC
+A → Move Left                             Mouse Left → Progress Dialogue
+S → Move Down                          Tab → Toggle Notecard
+D → Move Right                          F → Eliminate
+"
+
+[connection signal="pressed" from="back" to="." method="_on_back_pressed"]

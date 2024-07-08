@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://bqbfvob0er3fy"
+path="res://.godot/imported/blue_mask.dialogue-ade32aada2a5756164bd4dca246ee430.tres"
+
+[deps]
+
+source_file="res://dialogue/blue_mask.dialogue"
+dest_files=["res://.godot/imported/blue_mask.dialogue-ade32aada2a5756164bd4dca246ee430.tres"]
+
+[params]
+
+defaults=true
